@@ -206,6 +206,8 @@ $(eval $(call module,flooddetach,This module detaches you from channels which \
 $(eval $(call module,identfile,Places the ident of a user to a file when they \
 	 are trying to connect.))
 
+$(eval $(call module,identserver,Provides a simple IDENT server implementation.))
+
 $(eval $(call module,imapauth,Allow users to authenticate via IMAP.))
 
 $(eval $(call module,keepnick,Tries to get you your primary nick.))
